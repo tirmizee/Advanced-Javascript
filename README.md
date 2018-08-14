@@ -11,7 +11,7 @@ In
 
     // Objects
     var person = {
-      firstName:"John", 
+        firstName:"John", 
         lastName:"Doe", 
         age:50
     };
