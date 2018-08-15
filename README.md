@@ -22,3 +22,11 @@ In
     console.log('0 in person : ' +  (0 in person));
     console.log('50 in person : ' +  (50 in person));
     console.log('"John" in person : ' +  ('John' in person));
+    
+Selectors
+
+    $('.feature');           // Class selector
+    $('li strong');          // Descendant selector
+    $('em, i');              // Multiple selector
+    $('a[target="_blank"]'); // Attribute selector
+    $('p:nth-child(2)');     // Pseudo-class selector
