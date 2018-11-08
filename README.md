@@ -18,11 +18,11 @@ In
         age:50
     };
     console.log('"firstName" in person : ' +  ('firstName' in person));
-    console.log('"lastName" in person : ' +  ('lastName' in person));
-    console.log('"age" in person : ' +  ('age' in person));
-    console.log('0 in person : ' +  (0 in person));
-    console.log('50 in person : ' +  (50 in person));
-    console.log('"John" in person : ' +  ('John' in person));
+    console.log('"lastName" in person : '  +  ('lastName' in person));
+    console.log('"age" in person : '       +  ('age' in person));
+    console.log('0 in person : '           +  (0 in person));
+    console.log('50 in person : '          +  (50 in person));
+    console.log('"John" in person : '      +  ('John' in person));
     
 Selectors
 
