@@ -31,3 +31,12 @@ Selectors
     $('em, i');              // Multiple selector
     $('a[target="_blank"]'); // Attribute selector
     $('p:nth-child(2)');     // Pseudo-class selector
+    
+    
+Prevent click right
+
+    $(document).ready(function() {
+        $("body").on("contextmenu",function(){
+           return false;
+        }); 
+    }); 
