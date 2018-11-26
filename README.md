@@ -1,6 +1,6 @@
 # Advanced-Javascript
 http://www.htmldog.com/guides/javascript/advanced/localstorage/
-
+https://www.earthchie.com/blog/js-bahttext-function/
 In
 
     // Arrays
