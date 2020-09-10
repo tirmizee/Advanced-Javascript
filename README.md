@@ -75,3 +75,7 @@ Prevent click right
            return false;
         }); 
     }); 
+
+### Refference
+
+- https://hackernoon.com/es6-for-beginners-f98120b57414
