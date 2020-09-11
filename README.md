@@ -1,6 +1,6 @@
 ## Javascript
 
-#### var
+- #### var
 คือสำสั่งสำหรับประกาศตัวแปร
 
 ## Javascript ES6 
