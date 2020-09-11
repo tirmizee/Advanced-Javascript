@@ -92,7 +92,9 @@ Arrow function ไม่ได้ตั้งเริ่มต้น this เ�
 
         var p = new Person();
 
-#### 5. Pure function
+#### 5. Default parameters
+
+####  Pure function
 
 มีคุณสมบัติดังต่อไปนี้
 
