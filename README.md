@@ -40,7 +40,7 @@
 
 เป็นการประกาศตัวแปรมีขอบเขตที่เข้าถึงได้ในระดับ block { } คล้ายๆกับ let แต่<b>ไม่สามารถเปลี่ยนแปลงค่าผ่านการประกาศใหม่ได้</b>
 
-#### 3. Arrow Function
+#### 3. Arrow function
 
  ช่วยให้เราสามารถเขียนไวยากรณ์ฟังก์ชั่นที่สั้นลง
  
@@ -56,11 +56,19 @@
              return a + b + chuck;
         }
  
- อีกเหตุผลประการหนึ่งที่มีการนำฟังก์ชั่นลูกศรมาใช้คือเพื่อหลีกเลี่ยงความซับซ้อนของขอบเขต (this) 
+ อีกเหตุผลประการหนึ่งที่มีการน Arrow function มาใช้ คือเพื่อหลีกเลี่ยงความซับซ้อนของขอบเขต (this) 
+        
+        window.age = 10;
+        function Person() {
+             this.age = 42;
+             setTimeout(function () { //  Traditional function is executing on the window scope
+                 console.log("this.age", this.age); // "10" because the function executes on the window scope
+             }, 100);
+        }
 
-## ทบทวน
+        var p = new Person();
 
-### Pure Function
+### Pure function
 
 มีคุณสมบัติดังต่อไปนี้
 
@@ -69,7 +77,7 @@
         }
 
 
-### Higher-order Function
+### Higher-order function
         
 ### Map Function
 
