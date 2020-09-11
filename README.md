@@ -1,7 +1,7 @@
 ## Javascript
 
 - #### var
-คือสำสั่งสำหรับประกาศตัวแปร
+คือคำสั่งสำหรับประกาศตัวแปร
 
 ## Javascript ES6 
 1. Let and Const
