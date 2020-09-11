@@ -14,7 +14,7 @@
 8. Static methods
 9. Getters and Setters
 
-#### 1. Let and Const
+#### 1. Let
 เป็นการประกาศตัวแปรคล้ายๆกับ var แต่มีขอบเขตที่เข้าถึงเข้าถึงได้ในระดับ block { } ที่กำหนดไว้เท่านั้น
 
         if (true) {
@@ -35,6 +35,8 @@
         }
         console.log(c); // 10
         console.log(a); // 50
+
+#### 2. Const
 
 ## ทบทวน
 
