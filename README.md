@@ -9,6 +9,9 @@
 8. Static methods
 9. Getters and Setters
 
+#### 1. Let and Const
+เป็นการประกาศตัวแปรคล้ายๆกับ var แต่มีขอบเขตที่เข้าถึงเข้าถึงได้ในระดับ block { } ที่กำหนดไว้เท่านั้น
+
 ## ทบทวน
 
 ### Pure Function
