@@ -1,7 +1,13 @@
-# Advanced-Javascript
-http://www.htmldog.com/guides/javascript/advanced/localstorage/
-https://www.earthchie.com/blog/js-bahttext-function/
-
+## Javascript ES6 
+1. Let and Const
+2. Arrow functions
+3. Default parameters
+4. for of loop
+5. Spread attributes
+6. Maps
+7. Sets
+8. Static methods
+9. Getters and Setters
 
 ## ทบทวน
 
@@ -40,3 +46,6 @@ Arrow Function ช่วยให้เราสามารถเขียน�
 ### Refference
 
 - https://hackernoon.com/es6-for-beginners-f98120b57414
+- http://www.htmldog.com/guides/javascript/advanced/localstorage/
+- https://www.earthchie.com/blog/js-bahttext-function/
+
