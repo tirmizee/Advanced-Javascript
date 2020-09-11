@@ -40,6 +40,10 @@
 
 เป็นการประกาศตัวแปรมีขอบเขตที่เข้าถึงได้ในระดับ block { } คล้ายๆกับ let แต่<b>ไม่สามารถเปลี่ยนแปลงค่าผ่านการประกาศใหม่ได้</b>
 
+#### 3. Arrow Function
+
+ ช่วยให้เราสามารถเขียนไวยากรณ์ฟังก์ชั่นที่สั้นลงและยังมีความสามารถเข้าถึง this จาก scope ที่ครอบมันอยู่
+
 ## ทบทวน
 
 ### Pure Function
@@ -52,22 +56,6 @@
 
 
 ### Higher-order Function
-
-### Arrow Function
-
-Arrow Function ช่วยให้เราสามารถเขียนไวยากรณ์ฟังก์ชั่นที่สั้นลงและยังมีความสามารถเข้าถึง this จาก scope ที่ครอบมันอยู่ ซึ่งมีมาให้ใน ES6
-
--   Before
-
-        hello = function() {
-          return "Hello World!";
-        }
-    
--   Arrow Function
-
-        hello = () => {
-          return "Hello World!";
-        }
         
 ### Map Function
 
