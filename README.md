@@ -68,6 +68,18 @@
 
         var p = new Person();
 
+Arrow function ไม่ได้ตั้งเริ่มต้น this เป็น window scope แต่จะดำเนินการในขอบเขตที่สร้างขึ้น
+
+        window.age = 10; 
+        function Person() {
+             this.age = 42; 
+             setTimeout(() => { // <-- Arrow function executing in the "p" (an instance of Person) scope
+                 console.log("this.age", this.age); // "42" because the function executes on the Person scope
+             }, 100);
+        }
+
+        var p = new Person();
+
 ### Pure function
 
 มีคุณสมบัติดังต่อไปนี้
