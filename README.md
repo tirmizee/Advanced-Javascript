@@ -17,6 +17,12 @@
 #### 1. Let and Const
 เป็นการประกาศตัวแปรคล้ายๆกับ var แต่มีขอบเขตที่เข้าถึงเข้าถึงได้ในระดับ block { } ที่กำหนดไว้เท่านั้น
 
+        if (true) {
+         let a = 40;
+         console.log(a); //40
+        }
+        console.log(a); // undefined
+        
 ## ทบทวน
 
 ### Pure Function
