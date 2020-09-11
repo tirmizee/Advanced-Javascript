@@ -18,11 +18,24 @@
 เป็นการประกาศตัวแปรคล้ายๆกับ var แต่มีขอบเขตที่เข้าถึงเข้าถึงได้ในระดับ block { } ที่กำหนดไว้เท่านั้น
 
         if (true) {
-         let a = 40;
-         console.log(a); //40
+            let a = 40;
+            console.log(a); //40
         }
         console.log(a); // undefined
-        
+       
+ในตัวอย่างต่อไป ตัวแปร "a" ถูกกำหนดไว้ใน blocl {} ของคำสั่ง If ดังนั้นจึงไม่สามารถเข้าถึงได้จากภายนอก blocl {} if
+
+        let a = 50;
+        let b = 100;
+        if (true) {
+            let a = 60;
+            var c = 10;
+            console.log(a/c); // 6
+            console.log(b/c); // 10
+        }
+        console.log(c); // 10
+        console.log(a); // 50
+
 ## ทบทวน
 
 ### Pure Function
