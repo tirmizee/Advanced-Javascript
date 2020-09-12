@@ -118,9 +118,11 @@ Arrow function ไม่ได้ตั้งเริ่มต้น this เ�
 
 ### Higher-order function
         
-### Map Function
+### Map function
 
-### Filter Function
+### Filter function
+
+### Find function
 
 
 ### Refference
